@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Nov 15 12:43:12 2020" VIVADOVERSION="2019.2">
+
+  <SYSTEMINFO ARCH="virtex7" DEVICE="7vx485t" NAME="design_2" PACKAGE="ffg1157" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="X0" SIGIS="undef" SIGNAME="External_Ports_X0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_inv_0" PORT="a"/>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="EN"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X1" SIGIS="undef" SIGNAME="External_Ports_X1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_0" PORT="A2"/>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="A2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X2" SIGIS="undef" SIGNAME="External_Ports_X2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_0" PORT="A1"/>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="A1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y0" SIGIS="undef" SIGNAME="design_1_wrapper_0_D0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_0" PORT="D0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="design_1_wrapper_0_D1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_0" PORT="D1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="design_1_wrapper_0_D2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_0" PORT="D2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="design_1_wrapper_0_D3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_0" PORT="D3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="design_1_wrapper_1_D0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="D0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y5" SIGIS="undef" SIGNAME="design_1_wrapper_1_D1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="D1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y6" SIGIS="undef" SIGNAME="design_1_wrapper_1_D2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="D2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y7" SIGIS="undef" SIGNAME="design_1_wrapper_1_D3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="design_1_wrapper_1" PORT="D3"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/design_1_wrapper_0" HWVERSION="1.0" INSTANCE="design_1_wrapper_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="design_1_wrapper" VLNV="xilinx.com:user:design_1_wrapper:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_design_1_wrapper_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D0" SIGIS="undef" SIGNAME="design_1_wrapper_0_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D1" SIGIS="undef" SIGNAME="design_1_wrapper_0_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D2" SIGIS="undef" SIGNAME="design_1_wrapper_0_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D3" SIGIS="undef" SIGNAME="design_1_wrapper_0_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="EN" SIGIS="undef" SIGNAME="xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/design_1_wrapper_1" HWVERSION="1.0" INSTANCE="design_1_wrapper_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="design_1_wrapper" VLNV="xilinx.com:user:design_1_wrapper:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_design_1_wrapper_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D0" SIGIS="undef" SIGNAME="design_1_wrapper_1_D0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D1" SIGIS="undef" SIGNAME="design_1_wrapper_1_D1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D2" SIGIS="undef" SIGNAME="design_1_wrapper_1_D2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="D3" SIGIS="undef" SIGNAME="design_1_wrapper_1_D3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="EN" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/xup_inv_0" HWVERSION="1.0" INSTANCE="xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:XUP:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_2_xup_inv_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="design_1_wrapper_0" PORT="EN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

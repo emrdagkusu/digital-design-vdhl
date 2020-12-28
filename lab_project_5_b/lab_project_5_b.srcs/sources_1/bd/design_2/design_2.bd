@@ -1,0 +1,143 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x984FED6A984FED6A",
+      "device": "xc7vx485tffg1157-1",
+      "name": "design_2",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "design_1_wrapper_0": "",
+      "design_1_wrapper_1": "",
+      "xup_inv_0": ""
+    },
+    "ports": {
+      "X0": {
+        "direction": "I"
+      },
+      "X1": {
+        "direction": "I"
+      },
+      "X2": {
+        "direction": "I"
+      },
+      "Y0": {
+        "direction": "O"
+      },
+      "Y1": {
+        "direction": "O"
+      },
+      "Y2": {
+        "direction": "O"
+      },
+      "Y3": {
+        "direction": "O"
+      },
+      "Y4": {
+        "direction": "O"
+      },
+      "Y5": {
+        "direction": "O"
+      },
+      "Y6": {
+        "direction": "O"
+      },
+      "Y7": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "design_1_wrapper_0": {
+        "vlnv": "xilinx.com:user:design_1_wrapper:1.0",
+        "xci_name": "design_2_design_1_wrapper_0_0"
+      },
+      "design_1_wrapper_1": {
+        "vlnv": "xilinx.com:user:design_1_wrapper:1.0",
+        "xci_name": "design_2_design_1_wrapper_0_1"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_2_xup_inv_0_0"
+      }
+    },
+    "nets": {
+      "design_1_wrapper_0_D0": {
+        "ports": [
+          "design_1_wrapper_0/D0",
+          "Y0"
+        ]
+      },
+      "design_1_wrapper_0_D1": {
+        "ports": [
+          "design_1_wrapper_0/D1",
+          "Y1"
+        ]
+      },
+      "design_1_wrapper_0_D2": {
+        "ports": [
+          "design_1_wrapper_0/D2",
+          "Y2"
+        ]
+      },
+      "design_1_wrapper_0_D3": {
+        "ports": [
+          "design_1_wrapper_0/D3",
+          "Y3"
+        ]
+      },
+      "design_1_wrapper_1_D0": {
+        "ports": [
+          "design_1_wrapper_1/D0",
+          "Y4"
+        ]
+      },
+      "design_1_wrapper_1_D1": {
+        "ports": [
+          "design_1_wrapper_1/D1",
+          "Y5"
+        ]
+      },
+      "design_1_wrapper_1_D2": {
+        "ports": [
+          "design_1_wrapper_1/D2",
+          "Y6"
+        ]
+      },
+      "design_1_wrapper_1_D3": {
+        "ports": [
+          "design_1_wrapper_1/D3",
+          "Y7"
+        ]
+      },
+      "X2_1": {
+        "ports": [
+          "X2",
+          "design_1_wrapper_0/A1",
+          "design_1_wrapper_1/A1"
+        ]
+      },
+      "X1_1": {
+        "ports": [
+          "X1",
+          "design_1_wrapper_0/A2",
+          "design_1_wrapper_1/A2"
+        ]
+      },
+      "X0_1": {
+        "ports": [
+          "X0",
+          "xup_inv_0/a",
+          "design_1_wrapper_1/EN"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "design_1_wrapper_0/EN"
+        ]
+      }
+    }
+  }
+}

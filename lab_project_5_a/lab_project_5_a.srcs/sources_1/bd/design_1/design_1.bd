@@ -1,0 +1,178 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB559634CB559634C",
+      "device": "xc7vx485tffg1157-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_inv_0": "",
+      "xup_inv_1": "",
+      "xup_and2_0": "",
+      "xup_and2_1": "",
+      "xup_and2_2": "",
+      "xup_and2_3": "",
+      "xup_and2_4": "",
+      "xup_and2_5": "",
+      "xup_and2_6": "",
+      "xup_and2_7": ""
+    },
+    "ports": {
+      "EN": {
+        "direction": "I"
+      },
+      "A2": {
+        "direction": "I"
+      },
+      "A1": {
+        "direction": "I"
+      },
+      "D0": {
+        "direction": "O"
+      },
+      "D1": {
+        "direction": "O"
+      },
+      "D2": {
+        "direction": "O"
+      },
+      "D3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_0"
+      },
+      "xup_inv_1": {
+        "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+        "xci_name": "design_1_xup_inv_0_1"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_1"
+      },
+      "xup_and2_2": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_2"
+      },
+      "xup_and2_3": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_3"
+      },
+      "xup_and2_4": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_4"
+      },
+      "xup_and2_5": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_5"
+      },
+      "xup_and2_6": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_6"
+      },
+      "xup_and2_7": {
+        "vlnv": "xilinx.com:XUP:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_7"
+      }
+    },
+    "nets": {
+      "EN_1": {
+        "ports": [
+          "EN",
+          "xup_and2_0/a",
+          "xup_and2_1/a",
+          "xup_and2_2/a",
+          "xup_and2_3/a"
+        ]
+      },
+      "A2_1": {
+        "ports": [
+          "A2",
+          "xup_inv_0/a",
+          "xup_and2_7/a",
+          "xup_and2_4/a"
+        ]
+      },
+      "A1_1": {
+        "ports": [
+          "A1",
+          "xup_inv_1/a",
+          "xup_and2_6/b",
+          "xup_and2_4/b"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_and2_5/a",
+          "xup_and2_6/a"
+        ]
+      },
+      "xup_and2_5_y": {
+        "ports": [
+          "xup_and2_5/y",
+          "xup_and2_0/b"
+        ]
+      },
+      "xup_and2_6_y": {
+        "ports": [
+          "xup_and2_6/y",
+          "xup_and2_1/b"
+        ]
+      },
+      "xup_and2_7_y": {
+        "ports": [
+          "xup_and2_7/y",
+          "xup_and2_2/b"
+        ]
+      },
+      "xup_and2_4_y": {
+        "ports": [
+          "xup_and2_4/y",
+          "xup_and2_3/b"
+        ]
+      },
+      "xup_inv_1_y": {
+        "ports": [
+          "xup_inv_1/y",
+          "xup_and2_5/b",
+          "xup_and2_7/b"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "D0"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "D1"
+        ]
+      },
+      "xup_and2_2_y": {
+        "ports": [
+          "xup_and2_2/y",
+          "D2"
+        ]
+      },
+      "xup_and2_3_y": {
+        "ports": [
+          "xup_and2_3/y",
+          "D3"
+        ]
+      }
+    }
+  }
+}

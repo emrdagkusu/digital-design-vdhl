@@ -1,0 +1,38 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f88a14d6cc7944cd88afb12edbd0d3b7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_design_2_wrapper_behav xil_defaultlib.cfg_tb_design_2_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.design_1_xup_and2_0_0
+Compiling module xil_defaultlib.design_1_xup_and2_0_1
+Compiling module xil_defaultlib.design_1_xup_and2_0_2
+Compiling module xil_defaultlib.design_1_xup_and2_0_3
+Compiling module xil_defaultlib.design_1_xup_and2_0_4
+Compiling module xil_defaultlib.design_1_xup_and2_0_5
+Compiling module xil_defaultlib.design_1_xup_and2_0_6
+Compiling module xil_defaultlib.design_1_xup_and2_0_7
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.design_1_xup_inv_0_0
+Compiling module xil_defaultlib.design_1_xup_inv_0_1
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture design_2_design_1_wrapper_0_0_arch of entity xil_defaultlib.design_2_design_1_wrapper_0_0 [design_2_design_1_wrapper_0_0_de...]
+Compiling architecture design_2_design_1_wrapper_0_1_arch of entity xil_defaultlib.design_2_design_1_wrapper_0_1 [design_2_design_1_wrapper_0_1_de...]
+Compiling module xil_defaultlib.design_2_xup_inv_0_0
+Compiling architecture structure of entity xil_defaultlib.design_2 [design_2_default]
+Compiling architecture structure of entity xil_defaultlib.design_2_wrapper [design_2_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_design_2_wrapper [tb_design_2_wrapper]
+Built simulation snapshot cfg_tb_design_2_wrapper_behav

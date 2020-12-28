@@ -1,0 +1,42 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ipshared/9859/src/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_5/sim/design_1_xup_and2_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ipshared/67eb/src/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/sim/design_1_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/sim/design_1_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_3/sim/design_1_xup_and2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_4/sim/design_1_xup_and2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_6/sim/design_1_xup_and2_0_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_7/sim/design_1_xup_and2_0_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_1/sim/design_1_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_2/sim/design_1_xup_and2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_0/sim/design_1_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_xup_inv_0_0/sim/design_2_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_2_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ipshared/1ebe/sources_1/imports/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_0/sim/design_2_design_1_wrapper_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_2_design_1_wrapper_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/ip/design_2_design_1_wrapper_0_1/sim/design_2_design_1_wrapper_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_2_design_1_wrapper_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.ip_user_files/bd/design_2/sim/design_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/imports/hdl/design_2_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_2_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sim_1/new/simulation_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_design_2_wrapper'

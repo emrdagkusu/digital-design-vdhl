@@ -1,0 +1,339 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Nov 15 12:43:22 2020
+# Process ID: 7760
+# Current directory: C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1
+# Command line: vivado.exe -log design_2_design_1_wrapper_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_design_1_wrapper_0_0.tcl
+# Log file: C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1/design_2_design_1_wrapper_0_0.vds
+# Journal file: C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_2_design_1_wrapper_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 424.242 ; gain = 128.727
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_a/lab_project_5_a.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/Library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.cache/ip 
+Command: synth_design -top design_2_design_1_wrapper_0_0 -part xc7vx485tffg1157-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-86] Your Synthesis license expires in 2 day(s)
+INFO: [Common 17-1686] The version limit for your license is '2020.11' and will not allow you to run Xilinx software released after that date (year & month). A version limit expiration means that while you will be able to continue to use the current version of tools or IP with this license, you will not be able to use any updates or new releases.
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8340 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1134.734 ; gain = 232.844
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_2_design_1_wrapper_0_0' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/synth/design_2_design_1_wrapper_0_0.vhd:68]
+INFO: [Synth 8-3491] module 'design_1_wrapper' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/imports/hdl/design_1_wrapper.vhd:14' bound to instance 'U0' of component 'design_1_wrapper' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/synth/design_2_design_1_wrapper_0_0.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/imports/hdl/design_1_wrapper.vhd:26]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:14' bound to instance 'design_1_i' of component 'design_1' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/imports/hdl/design_1_wrapper.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:30]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_0' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_0/synth/design_1_xup_and2_0_0.v:57' bound to instance 'xup_and2_0' of component 'design_1_xup_and2_0_0' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:120]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_0' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_0/synth/design_1_xup_and2_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_and2' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ipshared/9859/src/xup_and2.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_and2' (1#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ipshared/9859/src/xup_and2.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_0' (2#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_0/synth/design_1_xup_and2_0_0.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_1' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/synth/design_1_xup_and2_0_1.v:57' bound to instance 'xup_and2_1' of component 'design_1_xup_and2_0_1' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:126]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_1' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/synth/design_1_xup_and2_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_1' (3#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_1/synth/design_1_xup_and2_0_1.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_2' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_2/synth/design_1_xup_and2_0_2.v:57' bound to instance 'xup_and2_2' of component 'design_1_xup_and2_0_2' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:132]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_2' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_2/synth/design_1_xup_and2_0_2.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_2' (4#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_2/synth/design_1_xup_and2_0_2.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_3' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_3/synth/design_1_xup_and2_0_3.v:57' bound to instance 'xup_and2_3' of component 'design_1_xup_and2_0_3' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:138]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_3' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_3/synth/design_1_xup_and2_0_3.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_3' (5#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_3/synth/design_1_xup_and2_0_3.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_4' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_4/synth/design_1_xup_and2_0_4.v:57' bound to instance 'xup_and2_4' of component 'design_1_xup_and2_0_4' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:144]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_4' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_4/synth/design_1_xup_and2_0_4.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_4' (6#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_4/synth/design_1_xup_and2_0_4.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_5' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_5/synth/design_1_xup_and2_0_5.v:57' bound to instance 'xup_and2_5' of component 'design_1_xup_and2_0_5' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:150]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_5' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_5/synth/design_1_xup_and2_0_5.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_5' (7#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_5/synth/design_1_xup_and2_0_5.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_6' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_6/synth/design_1_xup_and2_0_6.v:57' bound to instance 'xup_and2_6' of component 'design_1_xup_and2_0_6' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:156]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_6' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_6/synth/design_1_xup_and2_0_6.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_6' (8#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_6/synth/design_1_xup_and2_0_6.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_and2_0_7' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_7/synth/design_1_xup_and2_0_7.v:57' bound to instance 'xup_and2_7' of component 'design_1_xup_and2_0_7' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:162]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_and2_0_7' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_7/synth/design_1_xup_and2_0_7.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_and2_0_7' (9#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_and2_0_7/synth/design_1_xup_and2_0_7.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_0_0' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/synth/design_1_xup_inv_0_0.v:57' bound to instance 'xup_inv_0' of component 'design_1_xup_inv_0_0' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:168]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_inv_0_0' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/synth/design_1_xup_inv_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_inv' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ipshared/67eb/src/xup_inv.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_inv' (10#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ipshared/67eb/src/xup_inv.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_inv_0_0' (11#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_0/synth/design_1_xup_inv_0_0.v:57]
+INFO: [Synth 8-3491] module 'design_1_xup_inv_0_1' declared at 'c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_1/synth/design_1_xup_inv_0_1.v:57' bound to instance 'xup_inv_1' of component 'design_1_xup_inv_0_1' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:173]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xup_inv_0_1' [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_1/synth/design_1_xup_inv_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xup_inv_0_1' (12#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/ip/design_1_xup_inv_0_1/synth/design_1_xup_inv_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (13#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/bd/design_1/synth/design_1.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (14#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ipshared/1ebe/sources_1/imports/hdl/design_1_wrapper.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'design_2_design_1_wrapper_0_0' (15#1) [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/synth/design_2_design_1_wrapper_0_0.vhd:68]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1207.980 ; gain = 306.090
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1207.980 ; gain = 306.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1207.980 ; gain = 306.090
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1207.980 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/design_1_ooc.xdc] for cell 'U0/design_1_i'
+Finished Parsing XDC File [c:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.srcs/sources_1/bd/design_2/ip/design_2_design_1_wrapper_0_0/sources_1/bd/design_1/design_1_ooc.xdc] for cell 'U0/design_1_i'
+Parsing XDC File [C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1272.531 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1276.211 ; gain = 3.680
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/design_1_i/xup_and2_5. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1276.211 ; gain = 374.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1280.977 ; gain = 379.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------------+----------------------+------+
+|      |Instance         |Module                |Cells |
++------+-----------------+----------------------+------+
+|1     |top              |                      |    10|
+|2     |  U0             |design_1_wrapper      |    10|
+|3     |    design_1_i   |design_1              |    10|
+|4     |      xup_and2_0 |design_1_xup_and2_0_0 |     1|
+|5     |      xup_and2_1 |design_1_xup_and2_0_1 |     1|
+|6     |      xup_and2_2 |design_1_xup_and2_0_2 |     1|
+|7     |      xup_and2_3 |design_1_xup_and2_0_3 |     1|
+|8     |      xup_and2_4 |design_1_xup_and2_0_4 |     1|
+|9     |      xup_and2_5 |design_1_xup_and2_0_5 |     1|
+|10    |      xup_and2_6 |design_1_xup_and2_0_6 |     1|
+|11    |      xup_and2_7 |design_1_xup_and2_0_7 |     1|
+|12    |      xup_inv_0  |design_1_xup_inv_0_0  |     1|
+|13    |      xup_inv_1  |design_1_xup_inv_0_1  |     1|
++------+-----------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1296.754 ; gain = 394.863
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 1296.754 ; gain = 326.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1296.754 ; gain = 394.863
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1308.816 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1325.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:13 . Memory (MB): peak = 1325.660 ; gain = 868.344
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1325.660 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1/design_2_design_1_wrapper_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_2_design_1_wrapper_0_0, cache-ID = 0195f0ed237a8076
+INFO: [Coretcl 2-1174] Renamed 12 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1325.660 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_5_b/lab_project_5_b.runs/design_2_design_1_wrapper_0_0_synth_1/design_2_design_1_wrapper_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_2_design_1_wrapper_0_0_utilization_synth.rpt -pb design_2_design_1_wrapper_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 15 12:44:55 2020...
