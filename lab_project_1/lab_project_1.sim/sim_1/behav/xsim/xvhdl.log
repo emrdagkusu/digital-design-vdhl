@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_1/lab_project_1.srcs/sources_1/new/model_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'model_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_1/lab_project_1.srcs/sources_1/new/model_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'model_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_1/lab_project_1.srcs/sources_1/new/model_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'model_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_1/lab_project_1.srcs/sources_1/new/model_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'model_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_1/lab_project_1.srcs/sources_1/new/project.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'project'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/E.D/AppData/Roaming/Xilinx/Vivado/lab_project_1/lab_project_1.srcs/sim_1/new/simulation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_project'
