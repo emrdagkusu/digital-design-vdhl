@@ -1,0 +1,1 @@
+-wto "c55b4e3cca47414f9fb902795c50326d" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "cfg_tb_prime_design_wrapper_behav" "xil_defaultlib.cfg_tb_prime_design_wrapper" "xil_defaultlib.glbl" -log "elaborate.log" 

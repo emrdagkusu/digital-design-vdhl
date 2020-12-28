@@ -1,0 +1,33 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c55b4e3cca47414f9fb902795c50326d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_prime_design_wrapper_behav xil_defaultlib.cfg_tb_prime_design_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.prime_design_xup_and2_0_0
+Compiling module xil_defaultlib.prime_design_xup_and2_1_0
+Compiling module xil_defaultlib.prime_design_xup_and2_2_0
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.prime_design_xup_and3_0_0
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.prime_design_xup_inv_0_0
+Compiling module xil_defaultlib.prime_design_xup_inv_1_0
+Compiling module xil_defaultlib.prime_design_xup_inv_2_0
+Compiling module xil_defaultlib.xup_or4
+Compiling module xil_defaultlib.prime_design_xup_or4_0_0
+Compiling architecture structure of entity xil_defaultlib.prime_design [prime_design_default]
+Compiling architecture structure of entity xil_defaultlib.prime_design_wrapper [prime_design_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_prime_design_wrapper [tb_prime_design_wrapper]
+Built simulation snapshot cfg_tb_prime_design_wrapper_behav
