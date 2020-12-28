@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_project_3.ip_user_files/bd/design_1/ipshared/260c/src/xup_nor2.v" \
+"../../../../lab_project_3.ip_user_files/bd/design_1/ip/design_1_xup_nor2_0_0/sim/design_1_xup_nor2_0_0.v" \
+"../../../../lab_project_3.ip_user_files/bd/design_1/ipshared/93ce/src/xup_nand2.v" \
+"../../../../lab_project_3.ip_user_files/bd/design_1/ip/design_1_xup_nand2_0_0/sim/design_1_xup_nand2_0_0.v" \
+"../../../../lab_project_3.ip_user_files/bd/design_1/ipshared/7294/src/xup_xor2.v" \
+"../../../../lab_project_3.ip_user_files/bd/design_1/ip/design_1_xup_xor2_0_0/sim/design_1_xup_xor2_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
