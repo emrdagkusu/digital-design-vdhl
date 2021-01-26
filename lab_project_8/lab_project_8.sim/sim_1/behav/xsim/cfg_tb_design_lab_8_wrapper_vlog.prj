@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ipshared/37a5/src/xup_dff_en_reset.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_dff_en_reset_0_0/sim/design_lab_8_xup_dff_en_reset_0_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_dff_en_reset_0_1/sim/design_lab_8_xup_dff_en_reset_0_1.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_dff_en_reset_0_2/sim/design_lab_8_xup_dff_en_reset_0_2.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ipshared/67eb/src/xup_inv.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_inv_0_0/sim/design_lab_8_xup_inv_0_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_inv_0_1/sim/design_lab_8_xup_inv_0_1.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_inv_0_2/sim/design_lab_8_xup_inv_0_2.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_inv_0_3/sim/design_lab_8_xup_inv_0_3.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ipshared/8301/src/xup_and4.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and4_0_0/sim/design_lab_8_xup_and4_0_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ipshared/9859/src/xup_and2.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and2_0_0/sim/design_lab_8_xup_and2_0_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and2_0_1/sim/design_lab_8_xup_and2_0_1.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ipshared/0118/src/xup_or3.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_or3_0_0/sim/design_lab_8_xup_or3_0_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and2_1_0/sim/design_lab_8_xup_and2_1_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and2_3_0/sim/design_lab_8_xup_and2_3_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and2_4_0/sim/design_lab_8_xup_and2_4_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ipshared/8053/src/xup_or4.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_or4_0_0/sim/design_lab_8_xup_or4_0_0.v" \
+"../../../../lab_project_8.ip_user_files/bd/design_lab_8/ip/design_lab_8_xup_and2_5_0/sim/design_lab_8_xup_and2_5_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

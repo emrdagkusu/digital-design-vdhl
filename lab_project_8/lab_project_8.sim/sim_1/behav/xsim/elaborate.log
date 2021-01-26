@@ -1,0 +1,43 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto af738ec108dc4912b21b9edc02b4edc6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot cfg_tb_design_lab_8_wrapper_behav xil_defaultlib.cfg_tb_design_lab_8_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module xil_defaultlib.xup_dff_en_reset
+Compiling module xil_defaultlib.design_lab_8_xup_dff_en_reset_0_...
+Compiling module xil_defaultlib.design_lab_8_xup_dff_en_reset_0_...
+Compiling module xil_defaultlib.design_lab_8_xup_dff_en_reset_0_...
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.design_lab_8_xup_and2_0_0
+Compiling module xil_defaultlib.design_lab_8_xup_and2_0_1
+Compiling module xil_defaultlib.design_lab_8_xup_and2_1_0
+Compiling module xil_defaultlib.design_lab_8_xup_and2_3_0
+Compiling module xil_defaultlib.design_lab_8_xup_and2_4_0
+Compiling module xil_defaultlib.design_lab_8_xup_and2_5_0
+Compiling module xil_defaultlib.xup_and4
+Compiling module xil_defaultlib.design_lab_8_xup_and4_0_0
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.design_lab_8_xup_inv_0_0
+Compiling module xil_defaultlib.design_lab_8_xup_inv_0_1
+Compiling module xil_defaultlib.design_lab_8_xup_inv_0_2
+Compiling module xil_defaultlib.design_lab_8_xup_inv_0_3
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.design_lab_8_xup_or3_0_0
+Compiling module xil_defaultlib.xup_or4
+Compiling module xil_defaultlib.design_lab_8_xup_or4_0_0
+Compiling architecture structure of entity xil_defaultlib.design_lab_8 [design_lab_8_default]
+Compiling architecture structure of entity xil_defaultlib.design_lab_8_wrapper [design_lab_8_wrapper_default]
+Compiling architecture tb of entity xil_defaultlib.tb_design_lab_8_wrapper [tb_design_lab_8_wrapper]
+Built simulation snapshot cfg_tb_design_lab_8_wrapper_behav
